@@ -1,0 +1,32 @@
+
+#navbar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-bottom: 1px solid #bbb8;
+}
+#navbar a {
+    display: block;
+    padding: 0.9rem 1.2rem;
+    font-size: 0.9rem;
+    text-decoration: none;
+    transition: 300ms ease-in-out;
+}
+#navbar a:hover {
+    color: var(--secondary);
+}
+.brand {
+    font-family: 'Reggae One', cursive;
+    color: white;
+}
+.bracket {
+    color: var(--primary);
+    font-weight: 500;
+}
+.nav-links {
+    display: flex;
+    justify-content: space-around;
+}
+.nav-links a {
+    color: var(--muted);
+}
